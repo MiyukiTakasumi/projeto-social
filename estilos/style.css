@@ -22,8 +22,15 @@ section#telefone {
     position: absolute;/*CONTAINER DE DENTRO*/
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);/*P/CENTRALIZAR A img*/
     height: 627px;/*ABRE A IMG NO GIMP E VERIFICAR O TAMANHO DA IMG */
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
